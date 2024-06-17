@@ -1,0 +1,52 @@
+/* Global / Universal Selector */
+* {
+    font-family: Georgia;
+}
+
+body {
+    background-color: rgb(11, 42, 11);
+}
+
+/* Element Selector / Tag Selector */
+h1 {
+    color: bisque;
+}
+
+/* Class Selector */
+.listItem {
+    color:bisque;
+    border-width: 1px;
+    border-color:rgb(232, 174, 103);
+    border-style: solid;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+ol {
+    list-style: none;
+}
+
+/* ID Selector */
+#task, #addButton {
+    background-color: transparent;
+    width: 500px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:bisque;
+    border-style: solid;
+    color: bisque;
+    padding: 10px;
+}
+
+#addButton {
+    width: 50px;
+    
+}
+
+#addButton:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: rgb(11, 42, 11);
+}

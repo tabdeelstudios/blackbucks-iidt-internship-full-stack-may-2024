@@ -3,29 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- Connecting to our CSS -->
+    <title>API Examples</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Connecting to our JavaScript -->
-    <h1 onmouseover="handleChangeBG(event)">Create your To-Do List</h1>
+    <!-- Example 1 -->
+    <!-- <h1 id="loading">Loading...</h1>
+    <img src="" id="userImage" />
+    <h2 id="userName"></h2> -->
 
-    <form onsubmit="handleSubmit(event)">
-      <input
-        type="text"
-        id="task"
-        placeholder="What are your tasks for today?"
-      />
-      <input type="submit" value="Add" id="addButton" />
-    </form>
-
-    <ol id="taskList">
-      <li class="listItem">First</li>
-      <li class="listItem">Second</li>
-      <li class="listItem">Third</li>
-    </ol>
-
+    <!-- Example 2 -->
+    <!-- 1. Read User Input -->
+    <input type="text" id="bookTitle" />
+    <button onclick="fetchBooks()" id="fetchBooks">Search</button>
+    <hr />
+    <!-- 2. Trigger API event -->
+    <!-- 3. Fetch API data -->
+    <!-- 4. Display book list -->
+    <div id="books"></div>
     <script src="scripts.js"></script>
   </body>
 </html>

@@ -1,21 +1,35 @@
-var taskList = document.getElementById("taskList");
+// Example 1
+// fetch("http://randomuser.me/api").then((response) =>
+//   response.json().then((data) => {
+//     var userImg = document.getElementById("userImage");
+//     var userName = document.getElementById("userName");
+//     var loading = document.getElementById("loading");
 
-const handleSubmit = (e) => {
-  // don't perform any default tasks
-  e.preventDefault();
-  // detect the input field
-  var taskInput = document.getElementById("task");
-  // read the value entered by the user
-  var userInput = taskInput.value;
+//     userImg.setAttribute("src", data.results[0].picture.thumbnail);
+//     userName.innerHTML = data.results[0].name.first;
+//     loading.style.display = "none";
+//   })
+// );
 
-  var newItem = document.createElement("li");
-  newItem.innerHTML = "<p>" + userInput + "</p>";
-  newItem.classList = ["listItem"];
-  taskList.appendChild(newItem);
+// Example 2
+function fetchBooks() {
+  var bookTitle = document.getElementById("bookTitle").value;
 
-  taskInput.value = "";
-};
+  // Add a dyanmic src attribute
+  var books = document.getElementById("books");
 
-const handleChangeBG = (e) => {
-  e.target.style.backgroundColor = "pink";
-};
+  fetch("https://www.googleapis.com/books/v1/volumes?q=" + bookTitle).then(
+    (response) =>
+      response.json().then((data) => {
+        data.items.map((book) => {
+          var bookImage = document.createElement("img");
+          bookImage.setAttribute("src", book.volumeInfo.imageLinks.thumbnail);
+          books.appendChild(bookImage);
+        });
+      })
+  );
+}
+
+// fetch("http://randomuser.me/api", {
+//   headers: { API_KEY: "myKEY" },
+// });
