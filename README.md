@@ -3,3 +3,5 @@
 - Session 3 - https://www.youtube.com/live/OsGayfTqc8k?si=HBbR36Ts3SeyBILX
 - Session 4 - https://www.youtube.com/live/53wxgikrDoI?si=CQ0WvPDw46H0qd77
 - Session 5 - https://www.youtube.com/live/ScjG8VgFQY4?si=50cw3qBfrwCt4hRI
+- Session 6 - https://www.youtube.com/live/j21ZCIWpPwA?si=qYww6I55mF7yZrKj
+- Session 7 - https://www.youtube.com/live/8Qq-6r6H690?si=nPq13Gj0Ff9kVPkK
