@@ -15,6 +15,12 @@ class Notes(generics.GenericAPIView):
         return Response({
             "notes":serializer.data, "message":"This is response"
         })
+    
+    def post(self, request):
+        serializer = self.serializer_class(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"status":"Success", "data":{"note":serializer.data}}, status=status.HTTP_201_CREATED)
 
 
 

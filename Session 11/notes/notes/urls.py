@@ -18,5 +18,5 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-    path('/api/notes/', include('mynotes.urls'))
+    path('api/notes/', include('mynotes.urls'))
 ]
