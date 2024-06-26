@@ -5,3 +5,5 @@
 - Session 5 - https://www.youtube.com/live/ScjG8VgFQY4?si=50cw3qBfrwCt4hRI
 - Session 6 - https://www.youtube.com/live/j21ZCIWpPwA?si=qYww6I55mF7yZrKj
 - Session 7 - https://www.youtube.com/live/8Qq-6r6H690?si=nPq13Gj0Ff9kVPkK
+- Session 9 - https://www.youtube.com/live/NLvhiBKWuMc?si=cOdRco886VXdiV43
+- Session 10 - https://www.youtube.com/live/WXPLjYBvvBU?si=LDc3w4jKVXaX0A0f
