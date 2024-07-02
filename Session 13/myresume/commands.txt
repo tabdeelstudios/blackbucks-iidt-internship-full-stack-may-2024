@@ -1,0 +1,7 @@
+python3 -m venv myworld
+source myworld/bin/activate
+
+pip install django
+django-admin startproject myresume
+cd myresume
+django-admin startapp resume
