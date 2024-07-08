@@ -7,3 +7,6 @@
 - Session 7 - https://www.youtube.com/live/8Qq-6r6H690?si=nPq13Gj0Ff9kVPkK
 - Session 9 - https://www.youtube.com/live/NLvhiBKWuMc?si=cOdRco886VXdiV43
 - Session 10 - https://www.youtube.com/live/WXPLjYBvvBU?si=LDc3w4jKVXaX0A0f
+- Session 11 - https://www.youtube.com/live/j1-RccEQ_3M?si=wOytLGEsOCH4LYOH
+- Revision 1 - https://www.youtube.com/live/cLDr_hdrgVw?si=j_F0lgnGHS-kkBD_
+- Revision 2 - https://www.youtube.com/live/9Ls4hikI4-M?si=I-MO6-L4n-ESeimi
